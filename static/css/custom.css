@@ -113,8 +113,6 @@ body {
     .fixed-nav {
         opacity: 1;
         position: fixed;
-        top: 0px;
-        left: 0px;
         z-index: 99999;
         background: #f2efe8;
         width: 100%;
@@ -138,7 +136,6 @@ body {
         min-height: 200px;
         padding: 15% 0;
         height: 100%;
-        margin-bottom: 0rem;
         background-size: contain;
         background-image: url(/images/BlueyFestOnline.png);
     }
