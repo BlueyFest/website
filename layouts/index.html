@@ -1,7 +1,9 @@
 {{ define "main" }}
+{{ template "_internal/google_analytics.html" . }}
 {{ $headless := .Site.GetPage "/homepage" }}
 {{ $sections := $headless.Resources.ByType "page" }}
 {{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
+
 <header id="site-head" >
     <div class="vertical">
         <div id="site-head-content" >
