@@ -57,7 +57,7 @@ a:hover {
     color: #b6b84c;
 }
 
-/* Header Buttons on Startpage */
+/* Header Buttons on Start page */
 a.btn {
     color: white;
     background-color: #8d81da;
@@ -67,7 +67,6 @@ a.btn {
     display: inline-block;
     font-size: 1.5vw;
     letter-spacing: 1px;
-    margin: 0;
     overflow: visible;
     padding: 1vh 2vw 1vh 2vw;
     position: relative;
@@ -83,7 +82,7 @@ a.btn:hover {
     background-color: #e0955f;
 }
 
-/* Scroll Menu on Startpage */
+/* Scroll Menu on Start page */
 a.fn-item.active {
     color: #5057a0;
 }
