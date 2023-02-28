@@ -20,7 +20,7 @@ Overall, Bit Rate is a fun-loving and adventurous character who brings a unique 
 
 ## Neural Net
 
-Neural Net is a laid-back St. Bernard with a gentle disposition and a heart of gold. They have long, fluffy fur that is a mix of white and brown, and a warm smile that makes everyone feel instantly at ease. Despite their massive size, Neural Net moves with grace and ease, exuding a sense of calm and tranquility wherever they go.
+Neural Net is a laid-back St. Bernard with a gentle disposition and a heart of gold. They have long, fluffy fur that is a mix of yellow and blue, and a warm smile that makes everyone feel instantly at ease. Despite their massive size, Neural Net moves with grace and ease, exuding a sense of calm and tranquility wherever they go.
 
 Neural Net is a natural peacemaker and mediator, often using their easy-going nature and soothing presence to diffuse tense situations and bring conflicting parties together. They are deeply empathetic and always willing to lend a listening ear or offer a comforting paw to those in need.
 
