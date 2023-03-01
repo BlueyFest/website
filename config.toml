@@ -17,7 +17,7 @@ title = "BlueyFest"
 [params]
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "Powered by PonyFest"
+    copyright = "Powered by [PonyFest]( https://ponyfest.horse/ \"PonyFest\")"
 
     # The "description" of your website. This is used in the meta data of your generated html.
     description = "BlueyFest"
