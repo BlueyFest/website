@@ -1,0 +1,12 @@
+<div class="vendor-container">
+{{ range $.Site.Data.vendors.vendors }}
+    <div class="text-box" style="margin-bottom: 20px">
+        <h1>{{ .Name }}</h1>
+        <img src="{{ .Image }}" style="max-height: 250px; max-width: 100%">
+        <p>{{ .Desc }}</p>
+        <p class="vendor-links" style="margin: 5px">
+            {{ range $key, $value := .Social }}<a href="{{ $value }}">{{ $key }}</a>&#8203;{{ end }}
+        </p>
+    </div>
+{{ end }}
+</div>

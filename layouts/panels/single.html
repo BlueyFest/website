@@ -1,0 +1,148 @@
+<html>
+	<head>
+		<title>BlueyFest! — {{.Params.StageName}}</title>
+		{{partial "head.html" .}}
+		<link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
+		<style>
+		body {
+			margin-right: 0;
+		}
+
+		.main-stream {
+			width: calc(100% - 200px);
+			margin-left: 200px;
+			background-color: black;
+		}
+
+		#stream-holder {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.metadata {
+			margin-left: 220px;
+			margin-right: 20px;
+		}
+
+		video:focus {
+			outline: none;
+		}
+
+		#panel-title {
+			margin-bottom: 0;
+		}
+
+		.panelists {
+			margin-top: 0;
+			font-style: italic;
+		}
+
+		.description {
+			max-width: 700px;
+		}
+
+		#stream-backdrop {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100vh;
+			width: 100vw;
+			background-color: rgba(0, 0, 0, 0.7);
+			z-index: -1;
+		}
+
+		@media screen and (max-width: 730px) {
+
+			.main-stream {
+				width: 100%;
+				margin-left: 0 !important;
+			}
+
+			.metadata {
+				width: calc(100% - 40px);
+				margin-left: 20px !important;
+			}
+		}
+		</style>
+	</head>
+	<body>
+
+	<div id="stream-backdrop"></div>
+		{{partial "header.html" .}}
+
+		<div class="main-stream">
+			<div id="stream-holder">
+
+				<iframe
+					id="twitch"
+				    src="https://player.twitch.tv/?channel={{.Params.TwitchName}}&autoplay&parent={{ replaceRE "^https?://([^/:]+).*" "$1" .Site.BaseURL }}"
+				    height="480"
+				    width="640"
+				    frameborder="0"
+				    scrolling="no"
+				    allowfullscreen="true">
+				</iframe>
+			</div>
+		</div>
+		<div class="metadata">
+			<h1 id="panel-title"></h1>
+			<p class="panelists" id="panel-panelists"></p>
+			<p class="description" id="panel-description"></p>
+		</div>
+
+		<script>
+			mDate = '{{ index $.Site.Params "messDate" }}';
+			CountDown = '{{ index $.Site.Params "countdownDate" }}';
+
+		(function() {
+			const now = Math.round((new Date()).getTime() / 1000);
+			// We switch over 15 min till we go live
+
+			const live = Math.round((new Date(window.CountDown).getTime() / 1000))
+			let player = null;
+			if (now < live) {
+				console.log("it's too early, waiting...")
+				const timeout = (live - now);
+				var script = document.createElement("script");
+				script.setAttribute('src', "{{ $.Site.BaseURL }}scripts/countdown.js");
+				document.body.appendChild(script);
+				document.getElementById('stream-holder').innerHTML = "<div class=\"countdown\"><img src='/images/offline.png' ><p class='bottom-center' id='countdown'></p></div>";
+
+	console.log("waiting " + timeout + "s to start");
+				setTimeout(() => { location.reload(); }, timeout * 1000 );
+				return;
+			}
+
+			const twitch = document.getElementById('twitch');
+			window.onresize = () => {
+				if (window.innerWidth <= 730) {
+					twitch.width = window.innerWidth;
+					twitch.height = window.innerWidth / 16 * 9;
+					document.getElementById('stream-holder').style.width = window.innerWidth + 'px';
+					return;
+				}
+				let width = window.innerWidth - 200;
+				let height = Math.max(window.innerHeight - 100, 400);
+				if (height > width / 16 * 9) {
+					height = width / 16 * 9;
+				} else if (width > height / 9 * 16) {
+					width = height / 9 * 16;
+				}
+				twitch.width = width;
+				twitch.height = height;
+				document.getElementById('stream-holder').style.width = ''+width + 'px';
+			}
+			window.onresize();
+
+			async function updateMetadata() {
+				const event = await getCurrentEvent("{{.Params.StageName}}") || {};
+				document.getElementById('panel-title').innerText = event.title || "BlueyFest";
+				document.getElementById('panel-panelists').innerText = event.panelists || "";
+				document.getElementById('panel-description').innerText = event.description || "";
+			}
+			updateMetadata();
+			setInterval(updateMetadata, 10000);
+		})();
+		</script>
+	</body>
+</html>

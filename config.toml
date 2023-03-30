@@ -1,44 +1,17 @@
 baseURL = "https://blueyfest.dog"
+languageCode = "en-us"
+title = "BlueyFest"
 
 # Google Analytics data
 googleAnalytics = "G-6SKB2FWYS5"
 
-# This is a "one page"-website, so we do not need these kinds of pages...
-disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
-
-defaultContentLanguage = "en"
-
-# The name of this wonderful theme ;-).
-theme = "hugo-scroll"
-
-# The "title" of your website
-title = "BlueyFest"
-
 [params]
-    # A "copyright"-line to be added at the bottom of the page.
-    # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "Powered by [PonyFest]( https://ponyfest.horse/ \"PonyFest\")"
+  scheduleApiUriDev = "https://schedule-api.blueyfest.dog/schedule"
+  scheduleApiUri = "https://schedule-api.blueyfest.dog/schedule"
+  countdownDate = "2023-04-01T15:00:00-04:00"
+  messDate = "2023-04-01T18:00:00-04:00"
 
-    # The "description" of your website. This is used in the meta data of your generated html.
-    description = "BlueyFest"
+# this lets use use HTML in our pages if we are so inclined.
+[markup.goldmark.renderer]
+unsafe = true
 
-    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
-    favicon = "images/favicon.png"
-
-    # These "images" are used for the structured data templates. This will show up, when
-    # services like Twitter or Slack want to generate a preview of a link to your site.
-    # See https://gohugo.io/templates/internal#twitter-cards and
-    # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/BlueyFestOnline.png"]
-
-    # Another "title" :-). This one is used as the site_name on the Hugo's internal
-    # opengraph structured data template.
-    # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "BlueyFest - 2023"
-
-    # This theme will, by default, inject a design-by-line at the bottom of the page.
-    # You can turn it off, but we would really appreciate if you don’t :-)
-    hidedesignbyline = true
-
-    [params.meta]
-        keywords = "bluey, blueyfest, pony, ponyfest, mlp"

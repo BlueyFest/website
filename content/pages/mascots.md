@@ -1,10 +1,11 @@
 ---
-title: "Mascots"
-weight: 3
-header_menu: false
+title: Who are the Mascots?
+url: /mascots
 ---
 
-## Bit Rate
+<div class="text-box">
+
+<h1 id="bit-rate">Bit Rate</h1>
 
 Bit Rate is a high-energy and outgoing character who loves technology and video games. She is a young pup with a bright blue coat and a mischievous twinkle in her eye. Bit Rate is always eager to share her latest gadget or gaming strategy with her friends, often leading them on exciting adventures in the virtual world.
 
@@ -14,11 +15,19 @@ Bit Rate is fiercely loyal to her friends and will go to great lengths to help t
 
 Overall, Bit Rate is a fun-loving and adventurous character who brings a unique perspective to the Bluey universe with her love of technology and her boundless enthusiasm for life.
 
-![Bit Rate](images/BorderCollieBR2.png)
+<div class="headshot">
 
----
+![Bit Rate](/images/BorderCollieBR2.png)
 
-## Neural Net
+</div>
+
+</div>
+
+<br>
+
+<div class="text-box">
+
+<h1 id="neural-net">Neural Net</h1>
 
 Neural Net is a laid-back St. Bernard with a gentle disposition and a heart of gold. They have long, fluffy fur that is a mix of yellow and blue, and a warm smile that makes everyone feel instantly at ease. Despite their massive size, Neural Net moves with grace and ease, exuding a sense of calm and tranquility wherever they go.
 
@@ -28,4 +37,10 @@ Despite their laid-back demeanor, Neural Net is also fiercely loyal and protecti
 
 In their free time, Neural Net loves to lounge around and take naps in sunny spots or cozy corners. They also enjoy playing with their friends and going on leisurely walks in nature. Overall, Neural Net is a beloved and cherished member of the Bluey universe, known for their kind heart and unwavering sense of calm.
 
-![Neural Net](images/BernardNet1.png)
+<div class="headshot">
+
+![Neural Net](/images/BernardNet1.png)
+
+</div>
+
+</div>

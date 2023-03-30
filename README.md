@@ -1,6 +1,6 @@
 # BlueyFest
 
-This repository contains the assets required to build the [BlueyFest](https://blueyfest.horse/) website.
+This repository contains the assets required to build the [BlueyFest](https://blueyfest.dog/) website.
 
 # Dependencies
 In order to build the website, you will need to install the [hugo framework](https://gohugo.io/).
@@ -14,3 +14,4 @@ In order to build the website, you will need to install the [hugo framework](htt
 
 # How do you update the website?
 The website utilizes GitHub pages (static website). The repo is configured with an action script to automatically build and deploy the website to the gh-pages (GitHub Pages) branch.
+

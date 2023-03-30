@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>BlueyFest{{with .Title}} — {{.}}{{end}}</title>
+		{{partial "head.html" .}}
+		{{block "head-alt" .}}
+		{{end}}
+	</head>
+	<body>
+		{{partial "header.html" .}}
+		<div class="content">
+			<div>
+				{{.Content}}
+			</div>
+			{{partial "footer.html" .}}
+		</div>
+		
+	</body>
+</html>

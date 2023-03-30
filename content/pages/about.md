@@ -1,12 +1,11 @@
 ---
-title: "PonyFest Online"
-weight: 4
-header_menu: false
+title: About
+url: /about
 ---
 
-![PonyFest](images/AnthroDogs.png)
+<div class="text-box" style="text-align: left">
 
-##### What is PonyFest?
+<h1 id="what-is-ponyfest">What is PonyFest?</h1>
 
 Ponyfest is an annual online convention for the My Little Pony (MLP) community. The convention started in 2020 and has since become a well-known event in the MLP community.
 
@@ -19,8 +18,13 @@ One of the critical ways that Ponyfest supports its vendors is by providing them
 One of the unique features of Ponyfest is its collaboration with other conventions. The event has worked with a number of other MLP conventions to create joint programming and promote cross-promotion between events, helping to strengthen the MLP community and promote a sense of unity among fans of the franchise.
 
 Overall, Ponyfest is a convention designed to support and promote the MLP community. The event provides a platform for fans of the franchise to come together, have fun, and engage with one another. The event organizers have worked hard to create an inclusive and supportive environment. They have also provided opportunities for vendors to promote their products and for attendees to support charity causes.
+</div>
 
-##### Why BlueyFest?
+<br>
+
+<div class="text-box" style="text-align: left">
+
+<h1 id="why-blueyfest">Why BlueyFest?</h1>
 
 As part of their efforts to expand their reach and promote community-building, the organizers of Ponyfest have decided to venture into the Bluey Community by hosting a one-day event that celebrates the popular Australian animated series.
 
@@ -32,3 +36,4 @@ The one-day event will feature a range of activities inspired by Bluey. Attendee
 
 By hosting this event, Ponyfest hopes to further its mission of promoting community-building and support in fandom culture. The organizers recognize the plethora of opportunities by bringing together fans of different shows and franchises. They are excited to explore the possibilities that the Bluey Community has to offer.
 
+</div>
