@@ -36,7 +36,7 @@ p {
     </div>
 	<div class="text-box" style="display:inline-block; flex-grow: 1; flex-direction: column; justify-content: space-around; text-align: center; flex-grow: 1; width: 500px;">
 		<div>
-			<p style="font-size: 2em; margin: 0">Saturday</p>
+			<p style="font-size: 2em; margin: 0">Saturday<br>April 1st, 2023</p>
 		</div>
 		<div>
             <!-- <p> some sort of tag line here </p> -->
