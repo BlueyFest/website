@@ -2,6 +2,10 @@
 {{ template "_internal/google_analytics_async.html" . }}
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
+<script>
+    mDate = '{{ index $.Site.Params "messDate" }}';
+    CountDown = '{{ index $.Site.Params "countdownDate" }}';
+</script>
 
 <script src="{{ $.Site.BaseURL }}scripts/lib/moment-locales.js" type="text/javascript"></script>
 <script src="{{ $.Site.BaseURL }}scripts/lib/moment-tz.js" type="text/javascript"></script>
