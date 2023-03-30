@@ -1,10 +1,44 @@
 {
     "vendors": [{
-        "Name": "Will be announcing soon",
-        "Desc": "Stay-tuned!",
+        "Name": "Haywaiian Horse Productions",
+        "Desc": "I Mele. I'm fueled by ponies, bacon and shiny bits! I sell a wide variety of MLP merch from stickers, buttons and prints, to charms, fluffy pillows, pins and much more!",
+        "Image": "/images/vendors/Haywaiian_Horse_Productions.jpg",
+        "Social": {
+            "Twitter": "https://twitter.com/HaywaiianHorse"
+        }
+    },{
+        "Name": "Onix Angel Creations",
+        "Desc": "Hello I'm Onix! I'm a artist, content creator, and fursuit maker. I offer original works in my online store including pride clothing, lanyards, keychains, and more!",
+        "Image": "/images/vendors/onix_angel_creations.jpg",
+        "Social": {
+            "Twitter": "https://twitter.com/OA_Creations",
+            "Instagram": "https://www.instagram.com/oa_creations/",
+            "TikTok": "tiktok.com/@onixangel",
+            "Twitch": "https://twitch.tv/that_sky_noodle"
+        }
+    },{
+        "Name": "PlushTrapShop",
+        "Desc": "I’m a UK based seller who specialises in keychains, charms, stickers and prints. While I mostly sell MLP related works, I’m recently beginning to branch out into other fandoms such as Bluey, Centaurworld, Pokémon and Sanrio with new products released monthly (often faster). ",
+        "Image": "/images/vendors/plushtrapez.jpg",
+        "Social": {
+            "Twitter": "https://twitter.com/PlushTrapez",
+            "DeviantArt": "https://www.deviantart.com/plushtrapez"
+        }
+    },{
+        "Name": "SpK’s Stash",
+        "Desc": "I have stickers (through Redbubble). I can draw, print and frame art commissions (size varying). It’s mostly art commissions, but I do have a variety of other objects available through Redbubble (until I have to tools to manufacture them myself). ",
+        "Image": "/images/vendors/AbbySpK.jpg",
+        "Social": {
+            "Twitter": "https://twitter.com/TheREALPurble",
+            "RedBubble": "https://www.redbubble.com/people/abbyspk/shop",
+            "Tumblr": "https://abbyspk.tumblr.com/"
+        }
+    },{
+        "Name": "Stay-tuned for more Vendors",
+        "Desc": "",
         "Image": "/images/BorderCollieBR3.png",
         "Social": {
-            "Twitter": "hhttps://twitter.com/PonyFestOnline"
+            "Twitter": "https://twitter.com/PonyFestOnline"
         }
     }]
 }
