@@ -11,6 +11,11 @@ googleAnalytics = "G-6SKB2FWYS5"
   countdownDate = "2023-04-01T15:00:00-04:00"
   messDate = "2023-04-01T18:00:00-04:00"
 
+  favicon = "images/favicon.png"
+  description = 'BlueyFest'
+  images = ["images/Fridgeless.png"]
+  title = "BlueyFest - 2023"
+
 # this lets use use HTML in our pages if we are so inclined.
 [markup.goldmark.renderer]
 unsafe = true
