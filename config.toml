@@ -8,7 +8,7 @@ googleAnalytics = "G-6SKB2FWYS5"
 [params]
   scheduleApiUriDev = "https://schedule-api.blueyfest.dog/schedule"
   scheduleApiUri = "https://schedule-api.blueyfest.dog/schedule"
-  countdownDate = "2023-04-01T15:00:00-04:00"
+  countdownDate = "2023-04-01T03:00:00-04:00"
   messDate = "2023-04-01T18:00:00-04:00"
 
   favicon = "images/favicon.png"
