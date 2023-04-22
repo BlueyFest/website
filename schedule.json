@@ -1,0 +1,169 @@
+{
+  "rooms": {
+    "Bit Rate's Stage": [
+      {
+        "id": "open",
+        "startTime": "2023-04-01T14:30:00-04:00",
+        "endTime": "2023-04-01T15:00:00-04:00",
+        "title": "Opening Ceremonies",
+        "panelists": "",
+        "description": "",
+        "isZoom": false
+      },
+      {
+        "id": "bit1",
+        "startTime": "2023-04-01T15:00:00-04:00",
+        "endTime": "2023-04-01T16:00:00-04:00",
+        "title": "March Madness, Bluey Edition",
+        "panelists": "Taylor, Red Card",
+        "description": "Who is the best character from Bluey?  Join Taylor and Red Card as you vote live in a bracketed tournament on the top Bluey characters",
+        "isZoom": false
+      },
+      {
+        "id": "bit2",
+        "startTime": "2023-04-01T16:00:00-04:00",
+        "endTime": "2023-04-01T17:00:00-04:00",
+        "title": "BlueyLash",
+        "panelists": "Eliwood Sain and co",
+        "description": "Come watch Eli and friends play Quiplash.  Now with a Bluey spin!",
+        "isZoom": false
+      },
+      {
+        "id": "bit3",
+        "startTime": "2023-04-01T17:00:00-04:00",
+        "endTime": "2023-04-01T18:00:00-04:00",
+        "title": "Bluey and Parenting",
+        "panelists": "TerraKlysh",
+        "description": "Join Terra Klysh, as she looks at parenting styles and lessons from bluey, what parents can take away from the show while watching with their kids and what other parents have said about Bluey, and her response.",
+        "isZoom": false
+      },
+      {
+        "id": "bit5",
+        "startTime": "2023-04-01T18:00:00-04:00",
+        "endTime": "2023-04-01T19:00:00-04:00",
+        "title": "Better With Bluey",
+        "panelists": "Floof Hoof, Namii",
+        "description": "Embarrassed about enjoying bluey as someone without kids? Don't be! Come join the conversation about how we've all been bettered by Bluey! We've all  taken the show to heart and are excited to share about how Bluey has changed our outlook! And if you're searching for reasons to watch the show you're at the right panel!",
+        "isZoom": false
+      },
+      {
+        "id": "bit6",
+        "startTime": "2023-04-01T19:00:00-04:00",
+        "endTime": "2023-04-01T20:00:00-04:00",
+        "title": "Australians Bluey Fans on Bluey",
+        "panelists": "Lycan, Sirris, Armoured",
+        "description": "Just how Australian is Bluey?  Listen to some Australians look at small details of the show that help showcase distinctly the Australian setting",
+        "isZoom": false
+      },
+      {
+        "id": "bit7",
+        "startTime": "2023-04-01T20:00:00-04:00",
+        "endTime": "2023-04-01T21:00:00-04:00",
+        "title": "The Music of Bluey",
+        "panelists": "Luck Rock",
+        "description": "There are so many things that make Bluey a fun and excellent show to watch! One place where the show excels is in the background music that gets used throughout the series. Luck Rock has lots to say about why the music team at Ludo Studios are so good and effective at making the show more immersive and emotional.",
+        "isZoom": false
+      },
+      {
+        "id": "bit8",
+        "startTime": "2023-04-01T21:00:00-04:00",
+        "endTime": "2023-04-01T22:00:00-04:00",
+        "title": "Digital Art Demo",
+        "panelists": "Midnight Premiere",
+        "description": "A comprehensive demonstration of MidnightPremiere’s digital art programs, process, and poor posture. Now with more Bluey!",
+        "isZoom": false
+      },
+      {
+        "id": "close",
+        "startTime": "2023-04-01T22:00:00-04:00",
+        "endTime": "2023-04-01T22:15:00-04:00",
+        "title": "Closing Ceremonies",
+        "panelists": "Staff",
+        "description": "",
+        "isZoom": false
+      },
+      {
+        "id": "conc1",
+        "startTime": "2023-04-01T22:15:00-04:00",
+        "endTime": "2023-04-01T22:45:00-04:00",
+        "title": "Thrack",
+        "panelists": "Thrack",
+        "description": "Thrack goes Acoustic",
+        "isZoom": false
+      },
+      {
+        "id": "conc2",
+        "startTime": "2023-04-01T22:45:00-04:00",
+        "endTime": "2023-04-02T00:00:00-04:00",
+        "title": "Bolt the Super Pony",
+        "panelists": "Bolt",
+        "description": "A super-serious Bluey set for super-serious Bluey enjoyers. Contains at least 50% Bluey Music or your money back.* Heeler or die!!1!",
+        "isZoom": false
+      },
+      {
+        "id": "conc3",
+        "startTime": "2023-04-02T00:00:00-04:00",
+        "endTime": "2023-04-02T00:30:00-04:00",
+        "title": "Sleepypony",
+        "panelists": "Sleepy",
+        "description": "he sure is",
+        "isZoom": false
+      }
+    ]
+  },
+  "roomOrder": [
+    "",
+    "Bit Rate's Stage"
+  ],
+  "times": [
+    "2023-04-01T14:30:00-04:00",
+    "2023-04-01T14:45:00-04:00",
+    "2023-04-01T15:00:00-04:00",
+    "2023-04-01T15:15:00-04:00",
+    "2023-04-01T15:30:00-04:00",
+    "2023-04-01T15:45:00-04:00",
+    "2023-04-01T16:00:00-04:00",
+    "2023-04-01T16:15:00-04:00",
+    "2023-04-01T16:30:00-04:00",
+    "2023-04-01T16:45:00-04:00",
+    "2023-04-01T17:00:00-04:00",
+    "2023-04-01T17:15:00-04:00",
+    "2023-04-01T17:30:00-04:00",
+    "2023-04-01T17:45:00-04:00",
+    "2023-04-01T18:00:00-04:00",
+    "2023-04-01T18:15:00-04:00",
+    "2023-04-01T18:30:00-04:00",
+    "2023-04-01T18:45:00-04:00",
+    "2023-04-01T19:00:00-04:00",
+    "2023-04-01T19:15:00-04:00",
+    "2023-04-01T19:30:00-04:00",
+    "2023-04-01T19:45:00-04:00",
+    "2023-04-01T20:00:00-04:00",
+    "2023-04-01T20:15:00-04:00",
+    "2023-04-01T20:30:00-04:00",
+    "2023-04-01T20:45:00-04:00",
+    "2023-04-01T21:00:00-04:00",
+    "2023-04-01T21:15:00-04:00",
+    "2023-04-01T21:30:00-04:00",
+    "2023-04-01T21:45:00-04:00",
+    "2023-04-01T22:00:00-04:00",
+    "2023-04-01T22:15:00-04:00",
+    "2023-04-01T22:30:00-04:00",
+    "2023-04-01T22:45:00-04:00",
+    "2023-04-01T23:00:00-04:00",
+    "2023-04-01T23:15:00-04:00",
+    "2023-04-01T23:30:00-04:00",
+    "2023-04-01T23:45:00-04:00",
+    "2023-04-02T00:00:00-04:00",
+    "2023-04-02T00:15:00-04:00",
+    "2023-04-02T00:30:00-04:00",
+    "2023-04-02T00:45:00-04:00",
+    "2023-04-02T01:00:00-04:00",
+    "2023-04-02T01:15:00-04:00",
+    "2023-04-02T01:30:00-04:00",
+    "2023-04-02T01:45:00-04:00",
+    "2023-04-02T02:00:00-04:00",
+    "2023-04-02T02:15:00-04:00",
+    "2023-04-02T02:30:00-04:00"
+  ]
+}
