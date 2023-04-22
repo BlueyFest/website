@@ -6,8 +6,8 @@ title = "BlueyFest"
 googleAnalytics = "G-6SKB2FWYS5"
 
 [params]
-  scheduleApiUriDev = "https://schedule-api.blueyfest.dog/schedule"
-  scheduleApiUri = "https://schedule-api.blueyfest.dog/schedule"
+  scheduleApiUriDev = "/schedule.json"
+  scheduleApiUri = "/schedule.json"
   countdownDate = "2023-04-01T03:00:00-04:00"
   messDate = "2023-04-01T18:00:00-04:00"
 
